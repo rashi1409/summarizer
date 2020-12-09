@@ -1,0 +1,282 @@
+<!DOCTYPE HTML>
+<!--
+	Introspect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Summarizer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--<link rel="stylesheet" href="../static/cssn\main.css" type="text/css" rel="stylesheet" media="screen,projection"/>-->
+		<link rel="stylesheet" href="../static/css\custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link rel="stylesheet" href="../static/cssn\main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link rel="stylesheet" href="../static/css\materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link rel="stylesheet" href="../static/css\materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	</head>
+	<body>
+
+		<!-- Header -->
+		<header id="header" style="border:#1c1c1c; border-width:3px; border-style:solid;background-color: white;">
+			<div class="inner">
+				<a href="{{url_for('home')}}" class="logo"><img src="{{url_for('static', filename='images/logo.png')}}" style="width:64px;height:64px;" >extractive text summarizer</a>
+				<nav id="nav">
+					<a href="{{url_for('home')}}">Home</a>
+					<a href="{{url_for('summary')}}">summarize</a>
+					<a href="{{url_for('compare_summary')}}">Compare</a>
+				</nav>
+			</div>
+		</header>
+		<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<!-- Main -->
+			<section id="main">
+				<div class="inner">
+					<header class="major special">
+												
+					</header>
+
+					
+					
+
+									
+								</div>
+							</div>
+
+							<!--<h4>Actions</h4>
+							<ul class="actions">
+								<li><a href="#" class="button special">Special</a></li>
+								<li><a href="#" class="button">Default</a></li>
+								<li><a href="#" class="button alt">Alternate</a></li>
+							</ul>
+							<ul class="actions small">
+								<li><a href="#" class="button special small">Small</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+								<li><a href="#" class="button alt small">Small</a></li>
+							</ul>
+							<div class="row">
+								<div class="3u 6u(small) 12u$(xsmall)">
+									<ul class="actions vertical">
+										<li><a href="#" class="button special">Vertical</a></li>
+										<li><a href="#" class="button">Vertical</a></li>
+										<li><a href="#" class="button alt">Vertical</a></li>
+									</ul>
+								</div>
+								<div class="3u 6u$(small) 12u$(xsmall)">
+									<ul class="actions vertical small">
+										<li><a href="#" class="button special small">Small</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+										<li><a href="#" class="button alt small">Small</a></li>
+									</ul>
+								</div>
+								<div class="3u 6u(small) 12u$(xsmall)">
+									<ul class="actions vertical">
+										<li><a href="#" class="button special fit">Fit</a></li>
+										<li><a href="#" class="button fit">Fit</a></li>
+										<li><a href="#" class="button alt fit">Fit</a></li>
+									</ul>
+								</div>
+								<div class="3u$ 6u$(small) 12u$(xsmall)">
+									<ul class="actions vertical small">
+										<li><a href="#" class="button special small fit">Small</a></li>
+										<li><a href="#" class="button small fit">Small</a></li>
+										<li><a href="#" class="button alt small fit">Small</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>-->
+
+					
+					<!-- Buttons -->
+					<!-- Start -->
+<div class="container">
+    <div class="section">
+       
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="input-field col s12 m10">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">compare</i></h2>
+           <form method="POST" action="/comparer">
+         <textarea name="rawtext" cols="3" rows="5" class="form-control" required="true" placeholder="Enter Text Here"></textarea>
+          
+         <br/>
+         <button class="btn btn-small waves-effect waves-light  light-blue lighten-1" type="reset">Clear</button>
+          <button class="btn btn-small waves-effect waves-light purple lighten-1" type="submit">Summarize</button>
+          
+        </form>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <!-- End -->
+	
+					
+					<!-- Form 
+						<section>
+							<h3>Choose Algo</h3>
+							<form method="post" action="#">
+								<div class="row uniform 50%">
+									<div class="6u 12u$(xsmall)">
+										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+									</div>
+									<div class="6u$ 12u$(xsmall)">
+										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+									</div>
+									<div class="12u$">
+										<div class="select-wrapper">
+											<select name="demo-category" id="demo-category">
+												<option value="">- Category -</option>
+												<option value="1">Manufacturing</option>
+												<option value="1">Shipping</option>
+												<option value="1">Administration</option>
+												<option value="1">Human Resources</option>
+											</select>
+										</div>
+									</div>
+									<div class="4u 12u$(xsmall)">
+										<input type="radio" id="priority-low" name="priority" checked>
+										<label for="priority-low">Low Priority</label>
+									</div>
+									<div class="4u 12u$(xsmall)">
+										<input type="radio" id="priority-normal" name="priority">
+										<label for="priority-normal">Normal Priority</label>
+									</div>
+									<div class="4u$ 12u$(xsmall)">
+										<input type="radio" id="priority-high" name="priority">
+										<label for="priority-high">High Priority</label>
+									</div>-->
+									<!--<div class="6u 12u$(small)">
+										<input type="checkbox" id="copy" name="copy">
+										<label for="copy">Spacy</label>
+									</div>
+									<div class="6u$ 12u$(small)">
+										<input type="checkbox" id="human" name="human">
+										<label for="human">NLTK</label>
+									</div>
+									<div class="6u 12u$(small)">
+										<input type="checkbox" id="m" name="m">
+										<label for="m">Gensim</label>
+									</div>
+									<div class="6u 12u$(small)">
+										<input type="checkbox" id="n" name="n">
+										<label for="n">Sumy LexRank</label>
+									</div>
+									<div class="6u 12u$(small)">
+										<input type="checkbox" id="o" name="o">
+										<label for="o">Sum Basic</label>
+									</div>
+									
+									<div class="12u$">
+										<ul class="actions">
+											<li><input type="submit" value="Summarize" class="special" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</section>-->
+
+						
+
+  <!-- Results -->
+  <section class="section section-solutions-about grey lighten-3 ">
+ <div class="container">
+      <div class="row">
+        <div class="col s12 m8">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">compare</i></h2>
+            <h5 class="center">Your Text</h5>
+
+            <p class="light">{{ctext}}</p>
+            <div class="alert alert-info" role="alert"><!--<p>Time Elapsed: <span style="color:#0091EA;">{{ final_time }} </span></p>--><br/>
+              <p>Reading Time: <span style="color:#0091EA;">{{ final_reading_time }}secs </span></p>
+        </div>
+          </div>
+        </div>
+      </div>
+
+  
+  </div>
+</section>
+
+    <!-- SECTION: RESULTS FOR DIFFERENT SUMMARIZERS -->
+	<section class="section section-solutions-about grey lighten-3 ">
+		<div class="container">
+		  <div class="row">
+		
+			<div class="col s12 m12 offset-m1">
+			  <div class="row">
+				<div class="col s12">
+				  <ul class="tabs">
+					<li class="tab col s3">
+					  <a href="#tab1" class="blue-text">SpaCy Summarizer</a>
+					</li>
+					<li class="tab col s3">
+					  <a href="#tab2" class="blue-text">nltk</a>
+					</li>
+					<li class="tab col s3">
+					  <a href="#tab3" class="blue-text">sumbasic</a>
+					</li>
+					<li class="tab col s3">
+					  <a href="#tab4" class="blue-text">text Rank</a>
+					</li>
+				
+				  </ul>
+				</div>
+				<div id="tab1" class="col s12">
+				  <h5>SpaCy</h5>
+				  <div class="" ><p>Reading Time: <span style="color:#0091EA;">{{ summary_reading_time }}secs  </span></p>
+					<p>summary length: <span style="color:#0091EA;">{{ len_summ}}   </span></p>
+				  </div>
+				  <div class="grey lighten-1"><p style="padding:5px;font-size:14px;">{{ final_summary_spacy }}</p></div>
+			  
+					
+				</div>
+				<div id="tab2" class="col s12">
+				  <h5>NLTK Summarizer</h5>
+				  
+					<div class=""><p>Reading Time: <span style="color:#0091EA;">{{ summary_reading_time_nltk }}secs   </span></p>
+					  <p>summary length: <span style="color:#0091EA;">{{ len_nltk}}   </span></p>
+					</div>              <div class="grey lighten-2"><p style="padding:5px;font-size:14px;">{{ final_summary_nltk }}</p></div>
+			 
+				</div>
+				<div id="tab3" class="col s12">
+				  <h5>sumbasic</h5>
+					 <div class=""><p>Reading Time: <span style="color:#0091EA;">{{ summary_reading_time_sumbasic}}secs   </span></p>
+					  <p>summary length: <span style="color:#0091EA;">{{ len_sumbasic}}   </span></p>
+				  </div>
+				  <div class="grey lighten-1"><p style="padding:5px;font-size:14px;">{{ final_summary_sumbasic }}</p></div>
+			  
+				
+				</div>
+				<div id="tab4" class="col s12">
+				  <h5>text rank</h5>
+				  
+					<div class=""><p>Reading Time: <span style="color:#0091EA;">{{ summary_reading_time_textrank}}secs   </span></p>
+					  <p>summary length: <span style="color:#0091EA;">{{ len_textrank}}   </span></p>
+					</div>              <div class="grey lighten-2"><p style="padding:5px;font-size:14px;">{{ final_summary_textrank }}</p></div>
+			 
+				</div>
+		   
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+
+
+			
+
+		<!-- Scripts -->
+			<script src="../static/jsn/jquery.min.js"></script>
+			<script src="../static/jsn/skel.min.js"></script>
+			<script src="../static/jsn/util.js"></script>
+			<script src="../static/jsn/main.js"></script>
+
+	</body>
+</html>
